@@ -8,10 +8,13 @@ import Page3 from "./components/page/Page3/Page3";
 import Skip from "./components/Skip/Skip";
 
 
-function App() {
+function App(props) {
   const [page, setPage] = useState(1);
   const nextPage = () => {
     setPage(page + 1);
+  };
+  const skipPage = () => {
+    setPage(3);
   };
 if (page === 4){
   setPage(1);
@@ -25,7 +28,7 @@ if (page === 4){
           <p>Find gardening enthusiasts from all over the world</p>
           <Stepper stepPosition={page} />
           <Continue onButton={nextPage} buttonScreen='Continue'/>
-      <Skip></Skip>
+      <Skip onButton={skipPage}></Skip>
 
         </div>
       )}

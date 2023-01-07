@@ -1,8 +1,12 @@
 import React from "react";
-import './Skip.css';
+import "./Skip.css";
 
-const Skip = () =>{
-return <h3>Skip</h3>
-}
+const Skip = (props) => {
+  return (
+    <button type="button" onClick={props.onButton}>
+      <h3>Skip</h3>
+    </button >
+  );
+};
 
 export default Skip;

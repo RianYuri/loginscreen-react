@@ -11,7 +11,7 @@ const Page2 = (props) => {
       <p>Get good quality products for your plants </p>
       <Stepper stepPosition={props.stepPosition} />
       <Continue onButton={props.onButton} buttonScreen={props.buttonScreen} />
-      <Skip></Skip>
+      <Skip onButton={props.onButton}></Skip>
 
     </div>
   );

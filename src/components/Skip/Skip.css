@@ -2,7 +2,11 @@ h3{
     font-family: 'Poppins',sans-serif;
     font-weight: 400;
     font-size: 14px;
-    padding-top: 6%;
     text-align: center;
     color: #92E3A9;
+}
+button{
+    background-color: transparent;
+    border: none;
+    margin-top: 6%;
 }
