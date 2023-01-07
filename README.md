@@ -25,30 +25,31 @@ npm start
 ```
 ## Página inicial
 <figure width="100%" display="flex"
-justify-content='center'  align="center">
+justify-content="center"  align="center">
 <img src="./public/home.png" >
 </figure>
 
 ## Segunda página
 
 <figure width="100%" display="flex"
-justify-content='center'  align="center">
+justify-content="center"  align="center">
 <img src="./public/page2.png" >
 </figure>
 
 ## Terceira Página
 
 <figure width="100%" display="flex"
-justify-content='center'  align="center"/>
+justify-content="center"  align="center"/>
 <img src="./public/page3.png" />
 </figure>
 
 ---
 # :computer: Tecnologias
 
-
+<div display:flex; flex-direction:row;>
  <img align="center" alt="HTML" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
     <img align="center" alt="JS" height="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-    <img align="center" alt="REACTJS" height="60"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />     
+    <img align="center" alt="REACTJS" height="60"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />   
+    </div>
 
