@@ -11,7 +11,7 @@
     height: 10px;
     border: 1px solid black;
 }
-.stepper div:nth-child(1){
+#stepper__color{
     background: #92E3A9;
     border: none;
     width: 12px;

@@ -1,11 +1,16 @@
 import React from "react";
 import "./Button.css";
 import Skip from "../Skip/Skip";
-const Continue = () => {
+const Continue = (props) => {
   return (
     <div className="continue">
-      <button type="button" className="continue__button" >Continue</button>
-      <Skip></Skip>
+      <button
+        type="button"
+        className="continue__button"
+        onClick={props.onButton}
+      >
+        {props.buttonScreen}
+      </button>
     </div>
   );
 };
