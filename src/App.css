@@ -1,0 +1,32 @@
+*{
+  margin: 0%;
+
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+
+.container>img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 240px;
+  padding-top: 5%;
+  font-weight: 500;
+}
